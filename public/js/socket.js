@@ -24,7 +24,7 @@ function connectSocket() {
 
     socket.on("connect", () => {
         setStatus("Connected");
-        console.log("✅ Socket connected:", socket.id);
+        console.log("Socket connected:", socket.id);
     });
 
     socket.on("disconnect", reason => {

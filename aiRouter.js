@@ -680,7 +680,7 @@ function createAIRouter(deps) {
       }
 
       if (answer) {
-        console.log(`✅ Instant reply from NLP (${nlpResult.source}): ${rawIntent}`);
+        console.log(`Instant reply from NLP (${nlpResult.source}): ${rawIntent}`);
 
         return {
           name: "nlp",
